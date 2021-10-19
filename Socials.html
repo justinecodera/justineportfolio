@@ -8,17 +8,13 @@
 			window.addEventListener("scroll", function(){
 				var header = document.querySelector("header");
 				header.classList.toggle("sticky", window.scrollY > 50);
-
 				var column = document.querySelector(".hero-section");
 				column.classList.toggle("scrollup", window.scrollY > 200);
-
-				var shown = document.querySelector(".container-2");
-				shown.classList.toggle("shown", window.scrollY > 500);
+				
 			})
 		</script>
 </head>
-<body>
-
+<body class="body">
 	<header>
 		
 		<a href="Projects.html" class="projects buttons" title="Check out my projects">Projects</a>
@@ -31,40 +27,31 @@
 		<div class="hero-section">
 			<div class="hero-text column">
 				
-				<div class="hero-text--content">
-					<h1>Personal</h1>
-					<h2>Portfolio</h2>
-					<p>By Justine Codera</p>
+				<div class="hero-text--content hero-text--contentsocial">
+					
+					<h2>Contact me
+					</h2>
+					<p>
+					fb: Justine Jeremy Codera<br>
+					twt: @jstnjrmycdr<br>
+					09478157245<br>
+					coderajustine30@gmail.com
+					</p>
+					
 				</div>
 
 			</div>
 			<div class="hero-image column">
 				
 				<div class="hero-image--content">
-					<img src="img/me.png" class="heroimg" title="This is me Justine Jeremy C. Codera">
+					<a href="https://www.facebook.com/sumato.ahiro" class="fblink" title="Check my fb"><img src="img/Socialimg.jpg" class="socialheroimg" title="This is me Justine Jeremy C. Codera">
+						<div class="socialheroimg overlaysoc" ><img class="fblogo" src="img/fblogo.png"></div></a>
+					
 				</div>
 
 			</div>
 		</div>
 	</div>
-
-	<div class="container-2 shown">
-		<div class="my-story">
-			<div class="my-story--content">
-				<h1>My Story</h1>
-				<p>a Student, a designer, a Programmer I am currently studying as an IT student in RTU
-				I started my journey being a designer as a freelance service where I design portfolio
-				templates for other people to use
-				<br><br>
-				Then I became curious how websites were designed, so I spent all my free time
-				studying how to make websites, I still dont have that much knowledge about web designing
-				but I will  be doing my best
-				<br><br>
-				I love what I do <3</p>
-			</div>
-		</div>
-	</div>
-
 
 	<footer>
 		<p>@2021 no copyright reserved</p>
@@ -72,5 +59,6 @@
 		take it all as much as you want</p>
 		<p>we live in a free world</p>	
 	</footer>
+
 </body>
 </html>
