@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="../css/Style.css">
+		<script type="text/javascript">
+			window.addEventListener("scroll", function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky", window.scrollY > 50);
+				var column = document.querySelector(".hero-section");
+				column.classList.toggle("scrollup", window.scrollY > 200);
+				
+			})
+		</script>
+</head>
+<body class="body">
+	<header>
+		
+		<a href="../html/Projects.html" class="projects buttons" title="Check out my projects">Projects</a>
+		<a href="../index.html" class="logo buttons" title="Back to home"><img src="../img/logo.png"></a>
+		<a href="../html/Socials.html" class="socials buttons" title="Check out my Socials">Socials</a>
+
+	</header>
+
+	<div class="container-1">
+		<div class="hero-section">
+			<div class="hero-text column">
+				
+				<div class="hero-text--content hero-text--contentsocial">
+					
+					<h2>Contact me
+					</h2>
+					<p>
+					fb: Justine Jeremy Codera<br>
+					twt: @jstnjrmycdr<br>
+					09478157245<br>
+					coderajustine30@gmail.com
+					</p>
+					
+				</div>
+
+			</div>
+			<div class="hero-image column">
+				
+				<div class="hero-image--content">
+					<a href="https://www.facebook.com/sumato.ahiro" class="fblink" title="Check my fb"><img src="../img/Socialimg.jpg" class="socialheroimg" title="This is me Justine Jeremy C. Codera">
+						<div class="socialheroimg overlaysoc" ><img class="fblogo" src="../img/fblogo.png"></div></a>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>@2021 no copyright reserved</p>
+		<p>I share my Ideas and insights
+		take it all as much as you want</p>
+		<p>we live in a free world</p>	
+	</footer>
+
+</body>
+</html>
